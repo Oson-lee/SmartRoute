@@ -6,7 +6,7 @@
 
 > **SmartRoute** 是一个极简、低延迟的大模型 (LLM) API 动态路由中间件。它基于纯数学启发式算法评估 Prompt 复杂度，自动将简单任务路由给低成本模型，复杂任务路由给高智商模型，在不损失体验的前提下大幅降低 AI API 调用成本。
 
-🌐 **[在线体验 Demo (Streamlit Cloud)](https://your-app-name.streamlit.app)** *(← 请替换为你的真实链接)*
+🌐 **[在线体验 Demo (Streamlit Cloud)](https://smartroute-osonlee.streamlit.app/)** 
 
 ---
 
@@ -46,7 +46,7 @@ $$P(\text{hard}) = \frac{1}{1 + e^{-(\mathbf{w}^T \mathbf{v} + b)}}$$
 * **前端交互/可视化：** `Streamlit`
 * **大模型调用：** 基于 `openai` 官方库封装的兼容层
     * *Low-Cost 组：* DeepSeek API
-    * *High-IQ 组：* 阿里通义千问 (Qwen) / 火山引擎豆包 (Doubao)
+    * *High-IQ 组：* 火山引擎豆包 (Doubao)
 
 ---
 
